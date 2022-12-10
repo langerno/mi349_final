@@ -125,6 +125,16 @@ a{
     text-decoration: none;
     color: whitesmoke;
 }
+  
+#photos img{
+    position: absolute;
+    border-style: solid;
+    width: 33%;
+    left: 1.5%;
+    margin-left: 0;
+    box-shadow: rgba(0,0,0,0.2) 0 0 15px;
+    
+}
 
 nav{
     width: 50%;
@@ -185,4 +195,3 @@ nav{
     margin-bottom: 0;
     height: 50%;
 }
-  
