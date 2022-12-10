@@ -12,12 +12,16 @@ html{
     transform: translate(-50%, -50%);
     text-align: center;
     size: 100%;
-    /* background-color: whitesmoke;
-    border-radius: 10%;
-    box-shadow: rgba(0,0,0,0.3) 0 0 30px;
+}
+
+#index_body{
     border-style: solid;
-    border-color: whitesmoke;
-    border-width: 10px; */
+    position: absolute;
+    background-color: whitesmoke;
+    left: 0;
+    right: 0;
+    top: 18.5%;
+    height: 55%;
 }
 
 #exp{
@@ -155,6 +159,7 @@ nav{
     background-color: rgb(255, 255, 255);
     box-shadow: rgba(0,0,0,0.4) 0 0 15px;
     color: rgb(59, 59, 59);
+    padding-bottom: 10px;
 }
 
 #bio p{
