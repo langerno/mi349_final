@@ -1,5 +1,6 @@
 body{
     background-color:cadetblue;
+    font-family: sans-serif;
 }
 
 #index_card{
@@ -59,23 +60,42 @@ body{
     margin-left: 400px;
 }
 
+#github_img{
+    border-radius: 50%;
+}
+
 .link_img{
     width: 50px;
+    box-shadow: rgba(0,0,0,0.2) 0 0 15px;
+}
+
+.link_img:hover{
+    box-shadow: rgba(0,0,0,0.7) 0 0 15px;
+    transition: 0.2s;
+}
+
+.text_link {
+    border-style: solid;
+    /* border-color: #676767; */
+    border-color: black;
+    border-width: 5px;
+    border-radius: 10px 10px 10px 10px;
+    /* background-color: #676767; */
+    background-color: black;
+    font-size: larger;
+    box-shadow: rgba(0,0,0,0.2) 0 0 15px;
+    color: whitesmoke;
+}
+
+.text_link:hover{
+    box-shadow: rgba(0,0,0,0.6) 0 0 15px;
+    transition: 0.2s;
 }
 
 .index_link{
-    border-style: solid;
-    border-color: #676767;
-    border-width: 5px;
-    border-radius: 10px 10px 10px 10px;
     display: block;
-    color: whitesmoke;
-    background-color: #676767;
     margin: auto;
-    font-family: Arial, Helvetica, sans-serif;
-    width: 100px;
-    font-size: larger;
-    box-shadow: rgba(0,0,0,0.2) 0 0 15px;
+    width: 100px;  
 }
 
 .index_link:hover{
@@ -88,41 +108,62 @@ body{
 
 a{
     text-decoration: none;
+    color: whitesmoke;
 }
 
 nav{
-    display: flex;
-    position: sticky;
-    top: 0;
+    width: 50%;
+    left: 0;
+    bottom: 0;
+    position: fixed;
+    width: auto;
 }
 
 #navlist{
     list-style: none;
 }
 
-#exp_page{
-    display: grid;
+#navlist li{
+    margin-bottom: 20px;
+    margin-left: 0px;
+    margin-right: 35px;
+    text-align: center;
 }
 
-.exp_section{
-    border-style: solid;
-    border-width: 10px;
+
+#navhome{
+    font-size: large;
+    background-color: black;
+    border-color: black;
 }
 
-#work{
-    grid-column: 1;
-    grid-row: 1,2;
-    width: 50%;
+#bio{
+    position: absolute;
+    width: 60%;
+    right: 0;
+    margin-right: 50px;
+    margin-top: 0;
 }
 
-#edu{
-    grid-column: 2;
-    grid-row: 1;
+#bio p{
+    margin-left: 10px;
+    font-size: medium;
+}
+
+#intro{
+    display: flex;
+}
+
+#hi{
+    margin-right: 10px;
+    font-size: 90px;
+    margin-bottom: 0px;
+    margin-top: 0;
+    text-align: left;
+}
+
+#intro p{
+    margin-bottom: 0;
     height: 50%;
-}
-
-#projects{
-    grid-column: 2;
-    grid-row: 2;
 }
   
