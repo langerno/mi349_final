@@ -11,6 +11,12 @@ body{
     transform: translate(-50%, -50%);
     text-align: center;
     size: 100%;
+    background-color: whitesmoke;
+    border-radius: 25%;
+    box-shadow: rgba(0,0,0,0.3) 0 0 30px;
+    border-style: solid;
+    border-color: whitesmoke;
+    border-width: 10px;
 }
 
 #exp{
@@ -34,7 +40,7 @@ body{
     grid-column: 2;
     border-style: solid;
     border-width: 2.5px;
-    box-shadow: rgba(0,0,0,0.5) 0 0 30px;
+    box-shadow: rgba(0,0,0,0.4) 0 0 30px;
 }
 
 #about{
@@ -52,12 +58,16 @@ body{
     grid-column: 2;
     grid-row: 2;
     margin-right: 400px;
+    left: 50px;
+    top: 25px;
 }
 
 #github{
     grid-column: 2;
     grid-row: 2;
     margin-left: 400px;
+    right: 50px;
+    top: 15px;
 }
 
 #github_img{
@@ -102,6 +112,7 @@ body{
 
 .off_site_link{
     margin-top: 35px;
+    position: relative;
 }
 
 a{
@@ -127,7 +138,6 @@ nav{
     margin-right: 35px;
     text-align: center;
 }
-
 
 #navhome{
     font-size: large;
