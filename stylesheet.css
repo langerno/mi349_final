@@ -1,6 +1,15 @@
-body{
+html{
     background-color:cadetblue;
     font-family: sans-serif;
+}
+
+body{
+   
+}
+
+#index_body{
+    background-color: whitesmoke;
+    width: 50%;
 }
 
 #index_card{
@@ -12,7 +21,7 @@ body{
     text-align: center;
     size: 100%;
     background-color: whitesmoke;
-    border-radius: 25%;
+    border-radius: 10%;
     box-shadow: rgba(0,0,0,0.3) 0 0 30px;
     border-style: solid;
     border-color: whitesmoke;
