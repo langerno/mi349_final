@@ -141,8 +141,9 @@ nav{
     right: 0;
     margin-right: 50px;
     margin-top: 0;
-    background-color: rgb(61, 105, 106);
+    background-color: rgb(255, 255, 255);
     box-shadow: rgba(0,0,0,0.4) 0 0 15px;
+    color: rgb(59, 59, 59);
 }
 
 #bio p{
