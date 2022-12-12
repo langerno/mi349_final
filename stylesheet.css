@@ -1,7 +1,9 @@
 html{
     background-color:rgb(50, 85, 86);
     font-family: sans-serif;
+    overflow: auto;
 }
+
 
 #index_card{
     scale: 1.1;
@@ -22,6 +24,7 @@ html{
     top: 18.5%;
     height: 55%;
     box-shadow: rgba(0,0,0,0.4) 0 0 30px;
+    min-height: 500px;
 }
 
 #exp{
@@ -124,14 +127,23 @@ a{
     text-decoration: none;
     color: whitesmoke;
 }
+
+#photos{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
   
 #photos img{
-    position: absolute;
+    position: relative;
     border-style: solid;
-    width: 33%;
+    width: 80%;
     left: 1.5%;
     margin-left: 0;
     box-shadow: rgba(0,0,0,0.2) 0 0 15px;
+    max-width: 1000px;
     
 }
 
@@ -154,22 +166,14 @@ nav{
     text-align: center;
 }
 
-#navhome{
-    font-size: large;
-    background-color: black;
-    border-color: black;
-}
-
 #bio{
-    position: absolute;
-    width: 60%;
-    right: 0;
-    margin-right: 50px;
-    margin-top: 0;
+    display: block;
+    margin: auto;
     background-color: rgb(255, 255, 255);
     box-shadow: rgba(0,0,0,0.4) 0 0 15px;
     color: rgb(59, 59, 59);
     padding-bottom: 10px;
+    max-width: 800px;
 }
 
 #bio p{
@@ -193,4 +197,27 @@ nav{
 #intro p{
     margin-bottom: 0;
     height: 50%;
+}
+
+@media (max-width: 1120px){
+    nav{
+        bottom: 0;
+        position: relative;
+        display: flex;
+    }
+    #navlist li{
+        margin-bottom: 20px;
+        margin-left: 0px;
+        margin-right: 35px;
+        text-align: center;
+    }
+    #navlist{
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+        justify-items: right;
+        list-style: none;
+        display: flex;
+        margin-top: 50px;
+    }
 }
